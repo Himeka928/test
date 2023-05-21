@@ -3,18 +3,18 @@ var vm = new Vue({
   data: {
     keyword: "",
     cards: [
-      {
-        title: "富永媛香",
-        su:"408736014",
-        cover:
-          "https://lh3.googleusercontent.com/fife/APg5EOZJM0JjMzdQeE6zjDEs-8nCbQIb7dIDVLrsX5DrgPApdbJBWaDbWGTEi83wkRl42Z8sj4B2D7D6R60N7LMdbJGlSFNx-y_Ee-T8AvRcbAqdGFkJVU7S4gLGsUlsPmGbwc1xy6rLauKFMvcamwSchnPekOftA78pQ_SM0gyaTKyOaNA4NiGYr0GUfoGSYJf5leDzRFJFD7_xoPVZ-O6oUEMJ0jO5d5u0_X4yAQ47QExTCQ7_MYHrCymwYVy1FeNC8rfoI89SRMRhKY3CgKFfAyhLwQhXlYKxxULDucUCVLbnkkjUa-IU0ptnHTDdiQsmlE-yGXPrEiXiVseSJ6uT44IYuqlSmmr38bmuaksBoaEykSfq2mxMITYYIEVIhp6VhnSYVEyCuEYcd0SEkm0I5mkLb7wH34y2984mzTOQRMxThptikwGEa_yviWQvxs_ionRw2CTURLJxKsqJEmhQpZpnlpT6AINg1P0FvHsH8cSaTXPrk4-JMTAcqTXWmEmTVX77X6WqRZNPvJiIhFLx7Tfa_hdSOd6ff-97vs9kFlLw95EnPW3pgbqcAG01F3kURLJbPblSEtJNB5uHFV17qFYGpZaiyiaYyqP5X9gps_vJw54Br4_cS7hquhMXjkRaX2ondUOK_Fz80IAfqUJqJTOMdLQK8fmTzNudPOE9hcEprFW1KKefgvY4o1E95U5Lq8D79f0cRFqvcBfr0aBLoV8diG1LXGLoTCY2Vo7OyiNaM_zxaXNwzO2V8ZidiRG1IUDmny6ffgb5SosdmgIBbloXpYzdMIp4pxGcVvuf1F6AzFGWjd9OqKoqU40D07HHvtiX4FH4iLqIrbGouxHj7jr9zyyuRtJZF7fZwfzDtYAEZ1lgfCuhxJMQtTGMZYw0_PuIvzbnXuoO8hYexbU1fTRLlhojx_WeJ8PWnULPdqf7x9qQaWF-zkCmbjXn-7MRjNyALUYyTfsl1XZTJqWB0dHcY3rFEa3IXLNmjiBiu7_yXNY0xoh7iaqVZtKWeZHYB8Q6WR-Wiw4sgbNqLCx5gxoixtISt8aAeoNnpsZadwXQ9T0N1xE_9yZVF1Ue5UdchbDPkgsZ-rIFVUvkS72b01hln-jKxgV7fxzf83OqJoAFgPUrYXP1aAyW62IXXuD0b6P2DhIikKeUCraLj2cU9RGSklyScFE-icnlcS8uR5K6lHHcCMi-eFjwY18IT8TatiuY2Fl7C1wEZ6ZP3cLZYJj0QzQ1bfsgTui0_Z-RBfcqqmB_D03cyFHLwth39DT1zeRlDfrwf3x3pAhEMTAqrLduLWwUq5L1ey2ufYy3BAnXs_XhOpimHUllcUCJmtz5IrVR3RN5BMhYHHSnlkF4GJizYv_G9Y_g5CtVYz374KpCl0Y2IGeyJezZIhSoLaTWAnYAAtHncRn1Z4r1nPhY00grCMWL4euyb8U4o2sFty_oFxSBhxoGmGJjDSUMYinNQSmMFUPXzroIJwRtcJjjPZIVfWUl=w1920-h892",
-        my1: "我的特色👍",
-        love1: "我喜歡多拉A夢,喜歡看動漫,看漫畫",
-        love: "非常喜歡看恐怖電影!!",
-        love2:"呪怨、IT、Halloween等々!(^^)!",
-        po1:"最近努力的事:",
-        po: "努力研究製作網頁、不要一直外賣自己煮飯!,早點睡!早點起床!",
-      },
+//       {
+//         title: "富永媛香",
+//         su:"408736014",
+//         cover:
+//           "https://lh3.googleusercontent.com/fife/APg5EOZJM0JjMzdQeE6zjDEs-8nCbQIb7dIDVLrsX5DrgPApdbJBWaDbWGTEi83wkRl42Z8sj4B2D7D6R60N7LMdbJGlSFNx-y_Ee-T8AvRcbAqdGFkJVU7S4gLGsUlsPmGbwc1xy6rLauKFMvcamwSchnPekOftA78pQ_SM0gyaTKyOaNA4NiGYr0GUfoGSYJf5leDzRFJFD7_xoPVZ-O6oUEMJ0jO5d5u0_X4yAQ47QExTCQ7_MYHrCymwYVy1FeNC8rfoI89SRMRhKY3CgKFfAyhLwQhXlYKxxULDucUCVLbnkkjUa-IU0ptnHTDdiQsmlE-yGXPrEiXiVseSJ6uT44IYuqlSmmr38bmuaksBoaEykSfq2mxMITYYIEVIhp6VhnSYVEyCuEYcd0SEkm0I5mkLb7wH34y2984mzTOQRMxThptikwGEa_yviWQvxs_ionRw2CTURLJxKsqJEmhQpZpnlpT6AINg1P0FvHsH8cSaTXPrk4-JMTAcqTXWmEmTVX77X6WqRZNPvJiIhFLx7Tfa_hdSOd6ff-97vs9kFlLw95EnPW3pgbqcAG01F3kURLJbPblSEtJNB5uHFV17qFYGpZaiyiaYyqP5X9gps_vJw54Br4_cS7hquhMXjkRaX2ondUOK_Fz80IAfqUJqJTOMdLQK8fmTzNudPOE9hcEprFW1KKefgvY4o1E95U5Lq8D79f0cRFqvcBfr0aBLoV8diG1LXGLoTCY2Vo7OyiNaM_zxaXNwzO2V8ZidiRG1IUDmny6ffgb5SosdmgIBbloXpYzdMIp4pxGcVvuf1F6AzFGWjd9OqKoqU40D07HHvtiX4FH4iLqIrbGouxHj7jr9zyyuRtJZF7fZwfzDtYAEZ1lgfCuhxJMQtTGMZYw0_PuIvzbnXuoO8hYexbU1fTRLlhojx_WeJ8PWnULPdqf7x9qQaWF-zkCmbjXn-7MRjNyALUYyTfsl1XZTJqWB0dHcY3rFEa3IXLNmjiBiu7_yXNY0xoh7iaqVZtKWeZHYB8Q6WR-Wiw4sgbNqLCx5gxoixtISt8aAeoNnpsZadwXQ9T0N1xE_9yZVF1Ue5UdchbDPkgsZ-rIFVUvkS72b01hln-jKxgV7fxzf83OqJoAFgPUrYXP1aAyW62IXXuD0b6P2DhIikKeUCraLj2cU9RGSklyScFE-icnlcS8uR5K6lHHcCMi-eFjwY18IT8TatiuY2Fl7C1wEZ6ZP3cLZYJj0QzQ1bfsgTui0_Z-RBfcqqmB_D03cyFHLwth39DT1zeRlDfrwf3x3pAhEMTAqrLduLWwUq5L1ey2ufYy3BAnXs_XhOpimHUllcUCJmtz5IrVR3RN5BMhYHHSnlkF4GJizYv_G9Y_g5CtVYz374KpCl0Y2IGeyJezZIhSoLaTWAnYAAtHncRn1Z4r1nPhY00grCMWL4euyb8U4o2sFty_oFxSBhxoGmGJjDSUMYinNQSmMFUPXzroIJwRtcJjjPZIVfWUl=w1920-h892",
+//         my1: "我的特色👍",
+//         love1: "我喜歡多拉A夢,喜歡看動漫,看漫畫",
+//         love: "非常喜歡看恐怖電影!!",
+//         love2:"呪怨、IT、Halloween等々!(^^)!",
+//         po1:"最近努力的事:",
+//         po: "努力研究製作網頁、不要一直外賣自己煮飯!,早點睡!早點起床!",
+//       },
       {
           my: "製作作品１",
           cover:
